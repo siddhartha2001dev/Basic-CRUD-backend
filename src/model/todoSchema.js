@@ -5,6 +5,6 @@ const todoSchema = new mongoose.Schema({
         type:String,
         required:true,
     }
-},{timespan:true});
+},{timespans:true});
 
 export default mongoose.model("todoList", todoSchema);
